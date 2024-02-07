@@ -68,10 +68,7 @@ export default function RecipeReviewCard() {
                             />
                             <CardContent>
                                 <Typography variant="body2" color="text.secondary">
-                                    This impressive paella is a perfect party dish and a fun meal to cook
-                                    together with your guests. Add 1 cup of frozen peas along with the mussels,
-                                    if you like.
-                                </Typography>
+{item.description}                                </Typography>
                             </CardContent>
                             <CardActions className='flex items-center justify-between' disableSpacing>
                                 {/* <IconButton aria-label="add to favorites"> */}
@@ -80,7 +77,7 @@ export default function RecipeReviewCard() {
 
                                 </Link>
                                 {/* </IconButton> */}
-                                <h4 className='btn1'>Price :{item.price}</h4>
+                                {/* <h4 className='btn1'>Price :{item.price}</h4> */}
                             </CardActions>
                             <Collapse in={expanded} timeout="auto" unmountOnExit>
                                 <CardContent>

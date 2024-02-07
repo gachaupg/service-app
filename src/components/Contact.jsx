@@ -11,6 +11,12 @@ const Contact = () => {
                 <WhatsApp className="text-pink-500  text-4xl"/>
                 <Call className="text-pink-500  text-4xl"/>
             </div>
+            <div className=" flex flex-col gap-4 mt-4 items-center justify-evenly">
+                <h4>Londoneast UK.</h4>
+                <p>Business and Technical park</p>
+                <p>Yew tree Avenue Rm 10 7FN</p>
+
+                </div>
             <img className="h-96 ob" src="https://res.cloudinary.com/pitz/image/upload/v1707233859/WhatsApp_Image_2024-02-06_at_17.00.20-removebg-preview_rpte6g.png" alt="" />
         </div>
         <div   className="w-96">
