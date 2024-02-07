@@ -27,6 +27,7 @@ import MailIcon from '@mui/icons-material/Mail';
 import NotificationsIcon from '@mui/icons-material/Notifications';
 import MoreIcon from '@mui/icons-material/MoreVert';
 import { Link, NavLink } from 'react-router-dom';
+import { ArrowBack } from '@mui/icons-material';
 
 const Search = styled('div')(({ theme }) => ({
   position: 'relative',
@@ -82,11 +83,12 @@ export default function DrawerAppBar(props) {
 
   const drawer = (
     <Box onClick={handleDrawerToggle} sx={{ textAlign: 'center' }}>
-      <Typography variant="h6" sx={{ my: 2 }}>
-        MUI
+      <Typography variant="h6" sx={{ my: 2 }} className='flex items-center justify-between gap-4'>
+      <img className=' h-20 object-cover' src="https://res.cloudinary.com/pitz/image/upload/v1707233859/WhatsApp_Image_2024-02-06_at_17.00.20-removebg-preview_rpte6g.png" alt="" />
+<ArrowBack/>
       </Typography>
       <Divider />
-      <List>
+      <List className='flex flex-col gap-4'>
       <NavLink activeClassName='active' to='/' className='text-black'>Home</NavLink>          
           <NavLink activeClassName='active' to='/about' className='text-black'>About</NavLink>          
 
