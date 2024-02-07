@@ -46,6 +46,9 @@
     height: 150vh;
     padding-top: 10rem !important;
   }
+  .about-text{
+    font-size: 3.5rem !important;
+  }
   .hero{
     padding: 0 !important;
   }
