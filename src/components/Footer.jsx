@@ -3,7 +3,10 @@ import { Link } from "react-router-dom"
 const Footer = () => {
     return (
        <div>
-        hello
+       <p className="text-center">
+       <Link color="inherit" href="https://mui.com/">
+topplancareservices      </Link>{' '}
+        </p> 
        </div>
     )
 }

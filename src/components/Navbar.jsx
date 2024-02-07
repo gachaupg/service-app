@@ -87,13 +87,11 @@ export default function DrawerAppBar(props) {
       </Typography>
       <Divider />
       <List>
-        {navItems.map((item) => (
-          <ListItem key={item} disablePadding>
-            <ListItemButton sx={{ textAlign: 'center' }}>
-              <ListItemText primary={item} />
-            </ListItemButton>
-          </ListItem>
-        ))}
+      <NavLink activeClassName='active' to='/' className='text-white'>Home</NavLink>          
+          <NavLink activeClassName='active' to='/about' className='text-white'>About</NavLink>          
+
+          <NavLink activeClassName='active' to='/contact' className='text-white'>Contact</NavLink>          
+          <NavLink activeClassName='active' to='/services' className='text-white'>Services</NavLink> 
       </List>
     </Box>
   );
