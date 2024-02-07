@@ -19,14 +19,12 @@ background: linear-gradient(142deg, rgba(255,255,255,1) 0%, rgba(68,5,45,1) 86%)
   .contact{
     padding: 3px;
     height: 150vh;
-    /* background-color: brown !important; */
     padding-top: 10rem !important;
   }
   .about{
     padding: 0px !important;
     height: 150vh;
-    /* background-color: brown !important; */
-    padding-top: 10rem !important;
+    padding-top: 17rem !important;
     margin: 0 !important;
   }
   .links{

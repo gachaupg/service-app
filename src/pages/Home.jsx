@@ -58,7 +58,7 @@ export default function RecipeReviewCard() {
                                     </IconButton>
                                 }
                                 title={item.title}
-                                subheader="uk based"
+                                subheader="uk based services"
                             />
                             <CardMedia
                                 component="img"
