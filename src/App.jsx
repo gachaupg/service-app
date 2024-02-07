@@ -4,6 +4,7 @@ import Contact from "./components/Contact"
 import StickyFooter from "./components/Footer"
 import Home from "./pages/Home"
 import About from "./components/About"
+import Categories from "./pages/Categories"
 
 const App = () => {
   return (
@@ -14,6 +15,7 @@ const App = () => {
         <Route path="/contact" element={<Contact />} />
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
+        <Route path="/categories" element={<Categories />} />
         </Routes>
         <StickyFooter/>
         </BrowserRouter>

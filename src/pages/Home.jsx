@@ -18,6 +18,7 @@ import MoreVertIcon from '@mui/icons-material/MoreVert';
 import { Data } from '../utils/data';
 import { Button } from '@mui/material';
 import { Link } from 'react-router-dom';
+import Hero from './hero';
 
 
 const ExpandMore = styled((props) => {
@@ -39,13 +40,14 @@ export default function RecipeReviewCard() {
     const [data, setData] = React.useState(Data)
     return (
         <div className='flex flex-col justify-center items-start ' >
+            <Hero />
             <h3 className='text-pink-400 underline  pl-20 mt-3 text-2xl'> Our services</h3>
 
             <div className='flex items-center mt-10 justify-center w-full gap-5 flex-wrap'>
 
                 {data.map((item, index) => {
                     return (
-                        <Card key={item.title} sx={{ maxWidth: 345 }}>
+                        <Card key={item.title} sx={{ maxWidth: 345,height:590 }}>
                             <CardHeader
                                 avatar={
                                     <Avatar sx={{ bgcolor: red[500] }} aria-label="recipe">
@@ -68,7 +70,7 @@ export default function RecipeReviewCard() {
                             />
                             <CardContent>
                                 <Typography variant="body2" color="text.secondary">
-{item.description}                                </Typography>
+                                    {item.description}                                </Typography>
                             </CardContent>
                             <CardActions className='flex items-center justify-between' disableSpacing>
                                 {/* <IconButton aria-label="add to favorites"> */}
@@ -77,7 +79,13 @@ export default function RecipeReviewCard() {
 
                                 </Link>
                                 {/* </IconButton> */}
-                                {/* <h4 className='btn1'>Price :{item.price}</h4> */}
+                                {item.title === 'Live care' && (
+                                    <Link to='/categories'>
+                                                                            <h4 className='btn1'>Categories</h4>
+
+                                    </Link>
+
+                                )}
                             </CardActions>
                             <Collapse in={expanded} timeout="auto" unmountOnExit>
                                 <CardContent>
