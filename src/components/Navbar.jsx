@@ -87,11 +87,11 @@ export default function DrawerAppBar(props) {
       </Typography>
       <Divider />
       <List>
-      <NavLink activeClassName='active' to='/' className='text-white'>Home</NavLink>          
-          <NavLink activeClassName='active' to='/about' className='text-white'>About</NavLink>          
+      <NavLink activeClassName='active' to='/' className='text-black'>Home</NavLink>          
+          <NavLink activeClassName='active' to='/about' className='text-black'>About</NavLink>          
 
-          <NavLink activeClassName='active' to='/contact' className='text-white'>Contact</NavLink>          
-          <NavLink activeClassName='active' to='/services' className='text-white'>Services</NavLink> 
+          <NavLink activeClassName='active' to='/contact' className='text-black'>Contact</NavLink>          
+          <NavLink activeClassName='active' to='/services' className='text-black'>Services</NavLink> 
       </List>
     </Box>
   );
