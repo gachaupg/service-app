@@ -84,16 +84,16 @@ export default function DrawerAppBar(props) {
   const drawer = (
     <Box onClick={handleDrawerToggle} sx={{ textAlign: 'center' }}>
       <Typography variant="h6" sx={{ my: 2 }} className='flex items-center justify-between gap-4'>
-      <img className=' h-20 object-cover' src="https://res.cloudinary.com/pitz/image/upload/v1707233859/WhatsApp_Image_2024-02-06_at_17.00.20-removebg-preview_rpte6g.png" alt="" />
-<ArrowBack/>
+        <img className=' h-20 object-cover' src="https://res.cloudinary.com/pitz/image/upload/v1707233859/WhatsApp_Image_2024-02-06_at_17.00.20-removebg-preview_rpte6g.png" alt="" />
+        <ArrowBack />
       </Typography>
       <Divider />
       <List className='flex flex-col gap-4'>
-      <NavLink activeClassName='active' to='/' className='text-black'>Home</NavLink>          
-          <NavLink activeClassName='active' to='/about' className='text-black'>About</NavLink>          
+        <NavLink activeClassName='active' to='/' className='text-black'>Home</NavLink>
+        <NavLink activeClassName='active' to='/about' className='text-black'>About</NavLink>
 
-          <NavLink activeClassName='active' to='/contact' className='text-black'>Contact</NavLink>          
-          <NavLink activeClassName='active' to='/services' className='text-black'>Services</NavLink> 
+        <NavLink activeClassName='active' to='/contact' className='text-black'>Contact</NavLink>
+        <NavLink activeClassName='active' to='/services' className='text-black'>Services</NavLink>
       </List>
     </Box>
   );
@@ -104,8 +104,8 @@ export default function DrawerAppBar(props) {
     <div className=' h-20'>
       {/* <CssBaseline /> */}
       <AppBar className='bg-slate-200 navbar' component="nav">
-        <Toolbar       className='text-white flex  justify-between w-full '
->
+        <Toolbar className='text-white flex  justify-between w-full '
+        >
           <IconButton
             color="inherit"
             aria-label="open drawer"
@@ -122,24 +122,24 @@ export default function DrawerAppBar(props) {
           >
             <img className=' h-20 object-cover' src="https://res.cloudinary.com/pitz/image/upload/v1707233859/WhatsApp_Image_2024-02-06_at_17.00.20-removebg-preview_rpte6g.png" alt="" />
           </Typography>
-          <Box className='links' sx={{ display:'flex ' ,gap:'2rem' }}>
-          <NavLink activeClassName='active' to='/' className='text-white'>Home</NavLink>          
-          <NavLink activeClassName='active' to='/about' className='text-white'>About</NavLink>          
+          <Box className='links' sx={{ display: 'flex ', gap: '2rem' }}>
+            <NavLink activeClassName='active' to='/' className='text-white'>Home</NavLink>
+            <NavLink activeClassName='active' to='/about' className='text-white'>About</NavLink>
 
-          <NavLink activeClassName='active' to='/contact' className='text-white'>Contact</NavLink>          
-          <NavLink activeClassName='active' to='/services' className='text-white'>Services</NavLink>          
-          </Box>    
-        <Box>
-            
-        <Search>
-            <SearchIconWrapper>
-              <SearchIcon />
-            </SearchIconWrapper>
-            <StyledInputBase
-              placeholder="Search…"
-              inputProps={{ 'aria-label': 'search' }}
-            />
-          </Search>  </Box>   
+            <NavLink activeClassName='active' to='/contact' className='text-white'>Contact</NavLink>
+            <NavLink activeClassName='active' to='/services' className='text-white'>Services</NavLink>
+          </Box>
+          <Box>
+
+            <Search>
+              <SearchIconWrapper>
+                <SearchIcon />
+              </SearchIconWrapper>
+              <StyledInputBase
+                placeholder="Search…"
+                inputProps={{ 'aria-label': 'search' }}
+              />
+            </Search>  </Box>
 
         </Toolbar>
       </AppBar>
@@ -163,7 +163,7 @@ export default function DrawerAppBar(props) {
       <Box component="main" sx={{ p: 3 }}>
         <Toolbar />
         <Typography>
-   
+
         </Typography>
       </Box>
     </div>

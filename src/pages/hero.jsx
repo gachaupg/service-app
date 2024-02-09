@@ -9,7 +9,7 @@ const Hero = () => {
             <div className="hero-left flex flex-col gap-16">
                 <h1 className="text-6xl about-text text-slate-600 font-bold">Welcome to Top PlanCare</h1>
                 <p className="text-2xl">We provide the best services in the UK</p>
-                <p>Hospitality services play a profound role in palliative care. Hospitality services contribute to dignity, compassion and respect.
+                <p className='text-lg text-slate-800'>Hospitality services play a profound role in palliative care. Hospitality services contribute to dignity, compassion and respect.
                     A service ecosystems lens is a useful means of organising knowledge.
                     Knowledge, emotions, amenities, social, and holistic are dominant theme
                     omnis sed doloremque harum modi quod ex, dolores voluptate commodi!</p>

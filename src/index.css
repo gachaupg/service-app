@@ -15,16 +15,19 @@
   ) !important;
 }
 .left {
-  width: 45% !important;
+  width: 85% !important;
+}
+.about-lef{
+width: 45% !important;
 }
 .cat{
   height: 89vh;
 }
 .right {
-  width: 45% !important;
+  width: 85% !important;
 }
 .active {
-  color: rgb(233, 13, 13);
+  color: pink;
 }
 .hero {
   background: linear-gradient(
@@ -49,6 +52,9 @@
     height: 150vh;
     padding-top: 10rem !important;
   }
+  .abt{
+    font-size: 1rem !important;
+  }
   .about-text{
     font-size: 3.5rem !important;
   }
@@ -56,13 +62,16 @@
     padding: 0 !important;
     height: 90vh;
   }
+  .about-lef{
+    width: 100% !important;
+    }
   .leee{
     display: none !important;
   }
   .about {
     padding: 0px !important;
     height: 150vh;
-    padding-top: 17rem !important;
+    /* padding-top: 17rem !important; */
     margin: 0 !important;
   }
   .hero-left{
