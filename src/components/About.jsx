@@ -3,6 +3,9 @@ import { Link } from "react-router-dom"
 import { Data, Data1 } from "../utils/data"
 
 const About = () => {
+
+    
+
     return (
         <div className='flex w-full  justify-center p-5 flex-col'>
             <h1 className='text-5xl  mb-10 ml-12 text-pink-400'>About Us</h1>
