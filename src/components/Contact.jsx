@@ -2,9 +2,9 @@ import { Call, Email, Facebook, WhatsApp } from "@mui/icons-material"
 import { useForm, ValidationError } from '@formspree/react';
 
 const Contact = () => {
-    const [state, handleSubmit] = useForm("xnqepkbd");
+    const [state, handleSubmit] = useForm("mayrerne");
     if (state.succeeded) {
-        return <p>Thanks for contacting topplancare!</p>;
+        return <p>Thanks for contacting topplancare !</p>;
     }
 
     return (
@@ -20,7 +20,7 @@ const Contact = () => {
                     </a>
                 </div>
                 <div className=" flex flex-col gap-4 mt-8 ml-12 justify-evenly">
-                    <h4 className="text-2xl">Londoneast UK.</h4>
+                    <h4 className="text-2xl">Londoneast tttt UK.</h4>
                     <p>Business and Technical park</p>
                     <p>Yew tree Avenue Rm 10 7FN</p>
 
