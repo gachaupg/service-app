@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import { Button } from "@mui/material"
 import { Link } from "react-router-dom"
 import { Data, Data1 } from "../utils/data"
@@ -14,13 +15,19 @@ const About = () => {
                 <div className="about-lef">
                     <h1 className="text-1xl abt  text-slate-600 font-semibold"> Top PlanCare An internatinal Hospitality and care services provider based in Uk</h1>
                     <hr />
-                    <h1 className="text-2xl text-pnk-300 mb-3 mt-3">Directors</h1>
+
+                    <p>
+                    Your live-in carer is there to provide the type and level of support that you specifically want.
+
+Welcoming a new person into your home can be quite daunting. It may be the first time you’ve ever lived with someone else, or you might not have lived with someone since your partner passed or your children left home.
+                    </p>
+                    {/* <h1 className="text-2xl text-pnk-300 mb-3 mt-3">Directors</h1>
                     
                     <ul>
                         <li>Joseph Wagura</li>
                         <li>Jacckie  Chombo</li>
                         <li>Immaculate Nderity</li>
-                    </ul>
+                    </ul> */}
                 </div>
                 <div className="about-lef">
                     <p className='text-lg w-full text-slate-600'>Hospitality services play a profound role in palliative care. Hospitality services contribute to dignity, compassion and respect.

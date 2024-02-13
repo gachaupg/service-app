@@ -11,7 +11,7 @@ const Contact = () => {
         <div className="flex w-full gap-7 items-center justify-around  flex-wrap pb-5 contact ">
             <div className="w-96">
                 <div className=" flex  justify-evenly">
-                    <Facebook className="text-pink-500  text-4xl" fontSize="20" />
+                    <Facebook className="text-pink-500  text-2xl" fontSize="20" />
 
                     <Email className="text-pink-500  text-4xl" />
                     <WhatsApp className="text-pink-500  text-4xl" />
@@ -19,6 +19,7 @@ const Contact = () => {
                         <Call className="text-pink-500  text-4xl" />
                     </a>
                 </div>
+                <div className='mt-6 flex justify-around items-center '><Call size={38}/> 02037402749 </div>
                 <div className=" flex flex-col gap-4 mt-8 ml-12 justify-evenly">
                     <h4 className="text-2xl">Londoneast tttt UK.</h4>
                     <p>Business and Technical park</p>

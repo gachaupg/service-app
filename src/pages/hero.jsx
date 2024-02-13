@@ -9,10 +9,15 @@ const Hero = () => {
             <div className="hero-left flex flex-col gap-16">
                 <h1 className="text-6xl about-text text-slate-600 font-bold">Welcome to Top PlanCare</h1>
                 <p className="text-2xl">We provide the best services in the UK</p>
-                <p className='text-lg text-slate-800'>Hospitality services play a profound role in palliative care. Hospitality services contribute to dignity, compassion and respect.
-                    A service ecosystems lens is a useful means of organising knowledge.
-                    Knowledge, emotions, amenities, social, and holistic are dominant theme
-                    omnis sed doloremque harum modi quod ex, dolores voluptate commodi!</p>
+                <p className='text-lg text-slate-800 '>We’ll work with you and your family to establish your needs and preferences, creating a
+                 bespoke care package that’s completely
+                 unique to you, from occasional visiting care to 24-hour live-in care.!
+              We provides constant, round-the-clock care from a dedicated carer who lives with you in your home, offering a helping hand at a moment’s notice.
+
+
+
+
+                 </p>
                 <Link to='/contact'>
                     <Button style={{
                         color:'white'
