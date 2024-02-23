@@ -30,15 +30,12 @@ width: 45% !important;
   color: pink;
 }
 .hero {
-  background: linear-gradient(
-    142deg,
-    rgba(255, 255, 255, 1) 0%,
-    rgba(68, 5, 45, 1) 86%
-  ) !important;
+ background-image: url('https://assets-global.website-files.com/63a1cbc81b0e903002cf9cec/63f52fe85e2ba8b392f474d3_63d0350366bb2e4a078ceac9_Teamwork-in-Nursing.webp');
+ background-size: cover;
   height: 90vh;
 }
 .hero-left {
-  width: 45% !important;
+  width: 65% !important;
 }
 .about {
   height: 89vh;
@@ -104,6 +101,7 @@ width: 45% !important;
   .hero-left{
     padding: 1rem !important;
     width: 100% !important;
+    padding-left: 0rem !important;
   }
   .links {
     display: none !important;
