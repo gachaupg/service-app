@@ -5,7 +5,7 @@ import { Link } from "react-router-dom"
 
 const Hero = () => {
     return (
-        <div className="flex pl-1 items-center w-full justify-center hero p-3  gap-4 flex-wrap ">
+        <div className="flex pl-1 items-center w-full justify-center hero p-1 gap-4 flex-wrap ">
             <div style={{
                 width:'45%'
             }} className="hero-left  bg--300 rounded-lg p-3 w-full flex items- justify-center flex-col gap-24">
@@ -25,8 +25,8 @@ const Hero = () => {
 
             </div>
             <div style={{width:'50%'}} className=" leee">
-            <div className="flex items-center p-1 justify-center bg-slate-200  abt1 mt-10 mb-10 w-full ">
-                <div  className="flex abt1  items-center gap-7 flex-col w-full  relative shad p-2">
+            <div className="flex items-center p-1 justify-center bg-slate-200    mt-10 mb-10 w-full ">
+                <div  className="flex   items-center gap-7 flex-col w-full  relative shad p-2">
                     <img className="h24 w-64 left-80  absolute" src="https://res.cloudinary.com/pitz/image/upload/v1708689842/Capture-removebg-preview_vqwnb6.png" alt="" />
                     <h1 className="text-pink-700 a text-3xl pt-10">Our Mission & Vision</h1>
                     <p className="w-full text-lg">
