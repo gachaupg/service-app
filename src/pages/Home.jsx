@@ -45,7 +45,7 @@ export default function RecipeReviewCard() {
             <Hero />
             <div className="flex items-center justify-between mb-5 p-5 w-full abt1 flex-wrap">
                 <div style={{ width: '45%' }} className="abt1">
-                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtM0cnnPcSLUSJyw75W23VdC5eMGWZiuTPOQ&usqp=CAU" alt="" className="w-full object-contain" />                </div>
+                    <img  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtM0cnnPcSLUSJyw75W23VdC5eMGWZiuTPOQ&usqp=CAU" alt="" className="w-full img-gen object-contain" />                </div>
                 <div style={{ width: '45%' }} className="flex abt1 gap-5 abt1  flex-col items center">
                     <h1 className="text-3xl text-pink-600">Philosophy of Our Service</h1>
                     <p className='text-lg'>At TopCare  Services, we believe our service users deserve
