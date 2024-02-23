@@ -31,8 +31,10 @@
   color: rgb(146, 3, 27);
 }
 .hero {
-  background-image: url("https://media.gettyimages.com/id/532241873/photo/nurse-showing-medical-report-to-senior-patient-at-hospital.jpg?s=612x612&w=gi&k=20&c=loLoWuVJE3xjFM9gEI2TC4G30Co3cZgVeO2_JDghUSQ=");
-  background-size: cover;
+  background-color: rgb(36, 36, 71);
+  /* color: white !important; */
+  /* background-image: url("https://media.gettyimages.com/id/532241873/photo/nurse-showing-medical-report-to-senior-patient-at-hospital.jpg?s=612x612&w=gi&k=20&c=loLoWuVJE3xjFM9gEI2TC4G30Co3cZgVeO2_JDghUSQ="); */
+  /* background-size: cover; */
   height: 90vh;
 }
 .hero-left {

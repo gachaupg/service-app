@@ -10,8 +10,8 @@ const Hero = () => {
                 width:'45%'
             }} className="hero-left  bg--300 rounded-lg p-3 w-full flex items- justify-center flex-col gap-24">
                 <h1 className="text-6xl about-text text-red-600 font-bold">Welcome to Top PlanCare</h1>
-                <p className="text-2xl text-black">We provide the best services in the UK</p>
-                <p className='text-lg text-black '>We’ll work with you and your family to establish your needs and preferences, creating a
+                <p className="text-2xl text-white">We provide the best services in the UK</p>
+                <p className='text-lg text-white '>We’ll work with you and your family to establish your needs and preferences, creating a
                     bespoke care package that’s completely
                     unique to you, from occasional visiting care to 24-hour live-in care.
                     We provides constant, round-the-clock care from a dedicated carer who lives with you in your home, offering a helping hand at a moment’s notice.
