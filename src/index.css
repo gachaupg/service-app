@@ -61,9 +61,15 @@ width: 45% !important;
   flex-wrap: wrap;
 
 }
+.ob{
+  display: flex;
+}
 @media only screen and (max-width: 600px) {
   .personal{
     height: 185vh !important;
+  }
+  .ob{
+    display: none !important;
   }
   .contact {
     padding: 3px;
