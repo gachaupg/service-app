@@ -22,8 +22,8 @@ const Hero = () => {
 
 
             </div>
-            <div className="w-96 leee">
-                <img className="h-96 ob" src="https://res.cloudinary.com/pitz/image/upload/v1707233859/WhatsApp_Image_2024-02-06_at_17.00.20-removebg-preview_rpte6g.png" alt="" />
+            <div style={{width:'45%'}} className=" leee">
+                <img className="w-full rounded-lg ob" src="https://www.keithrn.com/nurse/wp-content/uploads/2013/12/teaching-caring.jpg" alt="" />
 
             </div>
           
