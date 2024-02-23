@@ -112,9 +112,8 @@ export default function DrawerAppBar(props) {
             edge="start"
             onClick={handleDrawerToggle}
             sx={{ mr: 2, display: { sm: 'none' } }}
-          >
-
-            <MenuIcon />
+          >     
+          <MenuIcon />
           </IconButton>
           <Typography
             variant="h6"
@@ -125,9 +124,9 @@ export default function DrawerAppBar(props) {
           <Box className='links' sx={{ display: 'flex ', gap: '2rem' }}>
             <NavLink activeClassName='active' to='/' className='text-white'>Home</NavLink>
             <NavLink activeClassName='active' to='/about' className='text-white'>About</NavLink>
-
-            <NavLink activeClassName='active' to='/contact' className='text-white'>Contact</NavLink>
             <NavLink activeClassName='active' to='/services' className='text-white'>Services</NavLink>
+            <NavLink activeClassName='active' to='/contact' className='text-white'>Contact</NavLink>
+
           </Box>
           <Box>
 

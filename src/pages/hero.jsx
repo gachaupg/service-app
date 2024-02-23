@@ -21,8 +21,6 @@ const Hero = () => {
                         color: 'white'
                     }} className='flex bg-slate-600 text-white btn2'>Get Started</Button>
                 </Link>
-
-
             </div>
             <div style={{width:'50%'}} className=" leee">
             <div className="flex items-center p-1 justify-center bg-slate-200    mt-10 mb-10 w-full ">
