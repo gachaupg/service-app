@@ -28,6 +28,7 @@ import NotificationsIcon from '@mui/icons-material/Notifications';
 import MoreIcon from '@mui/icons-material/MoreVert';
 import { Link, NavLink } from 'react-router-dom';
 import { ArrowBack } from '@mui/icons-material';
+import Topbar from './Topbar';
 
 const Search = styled('div')(({ theme }) => ({
   position: 'relative',
@@ -91,7 +92,8 @@ export default function DrawerAppBar(props) {
       <List className='flex flex-col gap-4'>
         <NavLink activeClassName='active' to='/' className='text-black'>Home</NavLink>
         <NavLink activeClassName='active' to='/about' className='text-black'>About</NavLink>
-
+        <NavLink activeClassName='active' to='/home-care' className='text-white'>Home Care</NavLink>
+          <NavLink activeClassName='active' to='/complex' className='text-white'>Complex care</NavLink>
         <NavLink activeClassName='active' to='/contact' className='text-black'>Contact</NavLink>
         <NavLink activeClassName='active' to='/services' className='text-black'>Services</NavLink>
       </List>
@@ -102,8 +104,15 @@ export default function DrawerAppBar(props) {
 
   return (
     <div className=' h-20'>
+   
       {/* <CssBaseline /> */}
       <AppBar className='bg-slate-200 navbar' component="nav">
+      <Topbar/>
+      {/* hhhjhkhhhhhjjh */}
+      <div className="mt-3">
+              <hr />
+
+      </div>
         <Toolbar className='text-white flex  justify-between w-full '
         >
           <IconButton
@@ -119,10 +128,12 @@ export default function DrawerAppBar(props) {
             variant="h6"
             component="div"
           >
-            <img className=' h-20 object-cover' src="https://res.cloudinary.com/pitz/image/upload/v1707233859/WhatsApp_Image_2024-02-06_at_17.00.20-removebg-preview_rpte6g.png" alt="" />
+            <img className=' h-24 object-cover' src="https://res.cloudinary.com/pitz/image/upload/v1707233859/WhatsApp_Image_2024-02-06_at_17.00.20-removebg-preview_rpte6g.png" alt="" />
           </Typography>
           <Box className='links' sx={{ display: 'flex ', gap: '2rem' }}>
-            <NavLink activeClassName='active' to='/' className='text-white'>Home</NavLink>
+          <NavLink activeClassName='active' to='/' className='text-white'>Home</NavLink>
+          <NavLink activeClassName='active' to='/home-care' className='text-white'>Home Care</NavLink>
+          <NavLink activeClassName='active' to='/complex' className='text-white'>Complex care</NavLink>
             <NavLink activeClassName='active' to='/about' className='text-white'>About</NavLink>
             <NavLink activeClassName='active' to='/services' className='text-white'>Services</NavLink>
             <NavLink activeClassName='active' to='/contact' className='text-white'>Contact</NavLink>

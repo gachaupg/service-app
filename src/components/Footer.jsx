@@ -2,7 +2,7 @@ import { Link } from "react-router-dom"
 
 const Footer = () => {
     return (
-       <div className="bg-slate-300">
+       <div className="bg-slate-100">
        <p className="text-center">
        {'Copyright © '}{new Date().getFullYear()}{' '}
        <Link color="inherit" href="https://mui.com/">
