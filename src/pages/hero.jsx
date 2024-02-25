@@ -15,7 +15,7 @@ const Hero = () => {
         },
     }
     return (
-        <div className="flex pl-1 items-center w-full justify-center hero p-1 gap-4 flex-wrap ">
+        <div className="flex pl-1 items-center w-full justify-center home hero p-1 gap-4 flex-wrap ">
             <div style={{
                 width:'45%'
             }} className="hero-left  bg--300 rounded-lg w-full flex items- justify-center flex-col gap-7">

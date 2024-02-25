@@ -8,9 +8,25 @@ import ComplexCrae from "./pages/ComplexCrae"
 import Contact from "./components/Contact"
 import About from "./components/About"
 import Services from "./pages/Services"
-
+import React from "react"
+import Fuse from 'fuse.js';
+import { Data } from "./utils/data"
 
 const App = () => {
+  const [searchTerm, setSearchTerm] = React.useState('');
+  const [searchResults, setSearchResults] = React.useState([]);
+
+  const options = {
+    keys: ['title'],
+  }
+  const fuse = new Fuse(Data, options);
+
+  const handleSearch = (e) => {
+    const term = e.target.value;
+    setSearchTerm(term);
+    const results = fuse.search(term);
+    setSearchResults(results);
+  };
   return (
     <div>  
            
@@ -18,9 +34,9 @@ const App = () => {
        {/* hh */}
        {/* <Topbar/> */}
        {/* <hr /> */}
-       <DrawerAppBar/>
+       <DrawerAppBar handleSearch={handleSearch} searchTerm={searchTerm} />
         <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/" element={<Home searchResults={searchResults} />} />
         <Route path="/home-care" element={<HomeCare />} />
         <Route path="/complex" element={<ComplexCrae />} />
         <Route path="/contact" element={<Contact />} />

@@ -29,6 +29,8 @@ import MoreIcon from '@mui/icons-material/MoreVert';
 import { Link, NavLink } from 'react-router-dom';
 import { ArrowBack } from '@mui/icons-material';
 import Topbar from './Topbar';
+import Fuse from 'fuse.js';
+import { Data } from '../utils/data';
 
 const Search = styled('div')(({ theme }) => ({
   position: 'relative',
@@ -74,8 +76,8 @@ const StyledInputBase = styled(InputBase)(({ theme }) => ({
 const drawerWidth = 240;
 const navItems = ['Home', 'About', 'Contact'];
 
-export default function DrawerAppBar(props) {
-  const { window } = props;
+export default function DrawerAppBar({searchTerm, handleSearch, window}) {
+  // const { window } = props;
   const [mobileOpen, setMobileOpen] = React.useState(false);
 
   const handleDrawerToggle = () => {
@@ -101,7 +103,21 @@ export default function DrawerAppBar(props) {
   );
 
   const container = window !== undefined ? () => window().document.body : undefined;
+  // const [searchTerm, setSearchTerm] = React.useState('');
+  // const [searchResults, setSearchResults] = React.useState([]);
 
+  // const options = {
+  //   keys: ['title'],
+  // };
+
+  // const fuse = new Fuse(Data, options);
+
+  // const handleSearch = (e) => {
+  //   const term = e.target.value;
+  //   setSearchTerm(term);
+  //   const results = fuse.search(term);
+  //   setSearchResults(results);
+  // };
   return (
     <div className=' h-20'>
    
@@ -148,8 +164,11 @@ export default function DrawerAppBar(props) {
               <StyledInputBase
                 placeholder="Search…"
                 inputProps={{ 'aria-label': 'search' }}
+                value={searchTerm}
+                onChange={handleSearch}
               />
-            </Search>  </Box>
+            </Search>  
+            </Box>
 
         </Toolbar>
       </AppBar>
